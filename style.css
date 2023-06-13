@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+--Bright-orange: hsl(31, 77%, 52%);
+--Dark-cyan: hsl(184, 100%, 22%);
+--Very-dark-cyan: hsl(179, 100%, 13%);
+--Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+--Very-light-gray: hsl(0, 0%, 95%);
+}
+body{
+   background: var(--Very-light-gray);
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 70%;
+}
+.container .sed, .container .suvs, .container .lux{
+    padding: 40px ;
+    height: 500px;
+}
+.container .sed{
+    background-color: var(--Bright-orange);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px 0 0 5px;
+}
+ a{
+    width: 300px;
+}
+.sed  button{
+    color: var(--Bright-orange);
+    
+}
+.sed button:hover{
+    background: var(--Bright-orange);
+    color: var(--Very-light-gray);
+}
+.container .suvs{
+    background: var(--Dark-cyan);
+    display: flex;
+    flex-direction: column;
+}
+.suvs button{
+    color: var(--Dark-cyan);
+}
+.suvs button:hover{
+    background: var(--Dark-cyan);
+    color: var(--Very-light-gray);
+}
+.container .lux{
+    background: var(--Very-dark-cyan);
+    display: flex;
+    flex-direction: column;
+    border-radius :0 5px 5px 0 ;
+}
+.lux button{
+    color: var(--Very-dark-cyan);
+}
+.lux button:hover{
+    background: var(--Very-dark-cyan);
+    color: var(--Very-light-gray);
+}
+.container img{
+    width: 50px;
+}
+.container h1{
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 30px
+    0 24px;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: var(--Very-light-gray);
+}
+.container p{
+    line-height: 1.5;
+    color: var(--Transparent-white-paragraphs);
+    max-width: 90%;
+    font-size:15px;
+    margin-bottom: 80px;
+}
+.container button{
+    border-style: none;
+    border-radius: 30px;
+    background: var(--Very-light-gray);
+    width: 60%;
+    height: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+     font-family: 'Lexend Deca', sans-serif; ;
+}
+.container button:hover{
+    border: 1px solid var(--Very-light-gray) ;
+}
+@media(max-width:600px){
+    body{
+        height: auto;
+    }
+    .container{
+       max-width: 80%;
+        flex-direction:column ;
+    }
+    .container .sed, .container .suvs, .container .lux{
+    padding:50px 65px;
+}
+.container p{
+  margin-bottom: 26px;
+}
+.container .sed{
+border-radius :5px 5px 0 0 ;
+}
+.container .lux{
+border-radius :0  0 5px 5px  ;
+}
+}
