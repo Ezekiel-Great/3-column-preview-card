@@ -30,7 +30,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ### Links
 
 - Solution URL: [3-column-preview-card solution](https://github.com/Ezekiel-Great/3-column-preview-card)
-- Live Site URL: [Live Site](https://ezekiel-great.github.io/3-column-preview-card)
+- Live Site URL: [Live Site](https://ezekiel-great-73c4b0.netlify.app)
 
 ## My process
 
